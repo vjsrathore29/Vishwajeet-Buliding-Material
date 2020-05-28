@@ -1,0 +1,189 @@
+#title {
+  background-color: #63b7af;
+    font-family: 'Enriqueta', serif;
+  color: white;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 2rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 12%;
+}
+.page-1{
+  color: white;
+}
+button {
+  margin: 5px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Enriqueta', serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.firstPic {
+  width: 80%;
+  border-radius: 15px;
+  margin-left: 50px;
+
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #abf0e9;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #63b7af;
+}
+
+#testimonials {
+  text-align: center;
+  background-color:  #63b7af;
+  color: white;
+  padding-top: 20px;
+}
+
+.dogo {
+  width: 40%;
+  border-radius: 15px;
+  margin: 20px;
+}
+.secondPart{
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.price-button {
+  width: 100%
+}
+
+.card-deck {
+  margin-top: 2rem;
+}
+
+@media (max-width: 1028px) {
+  .rotate {
+    position: static;
+    transform: rotate(0);
+    margin-top: 30px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+
+  text-align: center;
+  padding: 7% 15%;
+
+}
+
+.cta {
+  margin-top: 20px;
+}
+
+#footer {
+  background-color: #63b7af;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.foot {
+  margin: 50px;
+  color: white;
+}
+
+.foot:hover {
+  color: grey;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: white;
+}
+
+.last {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1028px){
+  .last{
+    font-size: 1.5rem;
+  }
+}
+.lastpara{
+  font-size: 1.5rem;
+}
+.btn {
+  padding: .75em 2em .75em 2em;
+  color: white;
+  font-size: 1.5rem;
+  background-color:  #63b7af;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+}
+.btn:hover{
+  background-color: #2bc4ad;
+}
